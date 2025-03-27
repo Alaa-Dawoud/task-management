@@ -49,6 +49,8 @@
                     data: {
                         _token: '{{ csrf_token() }}',
                         sortedIds: sortedIds
+                    },
+                    success: function() {
                     }
                 });
             }
